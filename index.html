@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My travelblog</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"
+          ><img
+            src="./images/globe-1348777_1280.png"
+            alt="Weltkugel zurück zur Startseite"
+        /></a>
+      </div>
+      <div>
+        <input type="checkbox" class="burger-toggle" id="burger-toggle" />
+        <label for="burger-toggle" class="burger-icon">
+          <img
+            class="navmenu"
+            src="../images/bars-solid.svg"
+            alt="Navigationsmenu"
+        /></label>
+      </div>
+
+      <nav>
+        <ul class="mainnav">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="">Reiseziele</a>
+            <ul class="dropdown-content">
+              <li class="submenu">
+                <a href="" class="submenu-subtitle">Amerika</a>
+                <ul class="submenu-content submenu-content1">
+                  <li>
+                    <a href="./seiten/reiseziele.html#brasilien">Brasilien</a>
+                  </li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#argentinien"
+                      >Argentinien</a
+                    >
+                  </li>
+                  <li><a href="./seiten/reiseziele.html#chile">Chile</a></li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#costarica">Costa Rica</a>
+                  </li>
+                  <li><a href="./seiten/reiseziele.html#mexico">Mexico</a></li>
+                  <li><a href="./seiten/reiseziele.html#usa">USA</a></li>
+                  <li><a href="./seiten/reiseziele.html#kanada">Kanada</a></li>
+                </ul>
+              </li>
+              <li class="submenu">
+                <a href="" class="submenu-subtitle">Asien</a>
+                <ul class="submenu-content">
+                  <li><a href="./seiten/reiseziele.html#japan">Japan</a></li>
+
+                  <li>
+                    <a href="./seiten/reiseziele.html#indonesien">Indonesien</a>
+                  </li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#vietnam">Vietnam</a>
+                  </li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#thailand">Thailand</a>
+                  </li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#malaysia">Malaysia</a>
+                  </li>
+                  <li>
+                    <a href="./seiten/reiseziele.html#singapur">Singapur</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="./seiten/reiseziele.html#australien">Australien</a>
+              </li>
+              <li><a href="./seiten/wandern.html">Europa</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="./seiten/packliste.html"
+              >Reiseplanung</a
+            >
+            <ul class="dropdown-content">
+              <li><a href="./seiten/packliste.html">Packlisten</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="./seiten/wandern.html"
+              >Wandern</a
+            >
+            <ul class="dropdown-content">
+              <li><a href="./seiten/wandern.html">Jakobsweg</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="./seiten/uebermich.html"
+              >Über uns</a
+            >
+            <ul class="dropdown-content">
+              <li><a href=".seiten/uebermich.html">Über uns</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner"><h1>Footprints around the world</h1></section>
+      <section class="intro">
+        <h3>Willkommen auf meiner Seite</h3>
+        <p>
+          Begleite mich auf meiner Reise rund um die Welt und lasse dich
+          inspirieren. Ich zeige dir spannende Reiseziele und alles was du fürs
+          low budget reisen brauchst. Außerdem kannst du hier mehr über mich
+          erfahren.
+        </p>
+        <p>Ich wünsche dir viel Spaß auf meiner Seite!</p>
+        <img
+          src="./images/car-6603726_1280.jpg"
+          alt="Sonnenaufgang im Grand Canyon"
+        />
+      </section>
+      <section class="slideshow-container">
+        <div class="slideshow fade">
+          <a href="./seiten/reiseziele.html#brasilien"
+            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
+          /></a>
+          <div class="caption"><p>Amerika</p></div>
+        </div>
+        <div class="slideshow fade">
+          <a href="./seiten/reiseziele.html#japan"
+            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
+          /></a>
+          <div class="caption"><p>Asien</p></div>
+        </div>
+        <div class="slideshow fade">
+          <a href="./seiten/reiseziele.html#australien"
+            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
+          /></a>
+          <div class="caption"><p>Australien</p></div>
+          <a class="prev" onclick="plusSlides(-1)"
+            ><img src="./images/chevron-left-solid.svg" alt=""
+          /></a>
+          <a class="next" onclick="plusSlides(1)"
+            ><img src="./images/chevron-right-solid.svg" alt=""
+          /></a>
+        </div>
+      </section>
+      <div>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h3>Impressum</h3>
+        <h3>Datenschutz</h3>
+      </div>
+      <h3>&copy 2024 Sarah Domscheit</h3>
+      <div>
+        <h3>Kontakt</h3>
+        <a href="https://www.instagram.com/"
+          ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
+        /></a>
+        <a href="https://www.youtube.com/">
+          <img src="../images/youtube-brands-solid.svg" alt="Youtube"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
