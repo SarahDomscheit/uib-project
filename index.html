@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+    <!-- header -->
     <header>
       <div>
         <a href="index.html"
@@ -21,24 +22,30 @@
             alt="Weltkugel zurück zur Startseite"
         /></a>
       </div>
-      <div>
-        <input type="checkbox" class="burger-toggle" id="burger-toggle" />
-        <label for="burger-toggle" class="burger-icon">
-          <img
-            class="navmenu"
-            src="../images/bars-solid.svg"
-            alt="Navigationsmenu"
-        /></label>
-      </div>
+
+      <!-- Navigation -->
+      <input type="checkbox" class="burger-toggle" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-icon">
+        <img
+          class="navmenu"
+          src="../images/bars-solid.svg"
+          alt="Navigationsmenu"
+      /></label>
 
       <nav>
         <ul class="mainnav">
           <li><a href="#" class="nav-link">Home</a></li>
           <li class="dropdown">
-            <a class="subtitle nav-link" href="">Reiseziele</a>
+            <a class="subtitle nav-link" href="./seiten/reiseziele.html"
+              >Reiseziele</a
+            >
             <ul class="dropdown-content">
               <li class="submenu">
-                <a href="" class="submenu-subtitle">Amerika</a>
+                <a
+                  href="./seiten/reiseziele.html#brasilien"
+                  class="submenu-subtitle submenu-title"
+                  >Amerika</a
+                >
                 <ul class="submenu-content submenu-content1">
                   <li>
                     <a href="./seiten/reiseziele.html#brasilien">Brasilien</a>
@@ -58,7 +65,11 @@
                 </ul>
               </li>
               <li class="submenu">
-                <a href="" class="submenu-subtitle">Asien</a>
+                <a
+                  href="./seiten/reiseziele.html#japan"
+                  class="submenu-subtitle submenu-title"
+                  >Asien</a
+                >
                 <ul class="submenu-content">
                   <li><a href="./seiten/reiseziele.html#japan">Japan</a></li>
 
@@ -80,9 +91,15 @@
                 </ul>
               </li>
               <li>
-                <a href="./seiten/reiseziele.html#australien">Australien</a>
+                <a
+                  href="./seiten/reiseziele.html#australien"
+                  class="submenu-title"
+                  >Australien</a
+                >
               </li>
-              <li><a href="./seiten/wandern.html">Europa</a></li>
+              <li>
+                <a href="./seiten/wandern.html" class="submenu-title">Europa</a>
+              </li>
             </ul>
           </li>
 
@@ -91,7 +108,11 @@
               >Reiseplanung</a
             >
             <ul class="dropdown-content">
-              <li><a href="./seiten/packliste.html">Packlisten</a></li>
+              <li>
+                <a href="./seiten/packliste.html" class="submenu-title"
+                  >Packlisten</a
+                >
+              </li>
             </ul>
           </li>
           <li class="dropdown">
@@ -99,76 +120,116 @@
               >Wandern</a
             >
             <ul class="dropdown-content">
-              <li><a href="./seiten/wandern.html">Jakobsweg</a></li>
+              <li>
+                <a href="./seiten/wandern.html" class="submenu-title"
+                  >Jakobsweg</a
+                >
+              </li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="subtitle nav-link" href="./seiten/uebermich.html"
-              >Über uns</a
+              >Über mich</a
             >
             <ul class="dropdown-content">
-              <li><a href=".seiten/uebermich.html">Über uns</a></li>
+              <li>
+                <a href="./seiten/uebermich.html" class="submenu-title"
+                  >Über mich</a
+                >
+              </li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="banner"><h1>Footprints around the world</h1></section>
+      <!-- banner -->
+      <section class="banner"><h1>Footprints across the world</h1></section>
+      <!-- Über mich - content -->
       <section class="intro">
-        <h3>Willkommen auf meiner Seite</h3>
-        <p>
-          Begleite mich auf meiner Reise rund um die Welt und lasse dich
-          inspirieren. Ich zeige dir spannende Reiseziele und alles was du fürs
-          low budget reisen brauchst. Außerdem kannst du hier mehr über mich
-          erfahren.
-        </p>
-        <p>Ich wünsche dir viel Spaß auf meiner Seite!</p>
+        <div class="intro-content">
+          <h3>Willkommen auf meinem Reiseblog</h3>
+          <p>
+            Begleite mich auf meiner Reise rund um die Welt und lasse dich
+            inspirieren. Ich zeige dir spannende Reiseziele und alles was du
+            fürs Low Budget reisen brauchst. Außerdem kannst du
+            <a href="./seiten/uebermich.html">hier</a> mehr über mich erfahren.
+          </p>
+          <p>Ich wünsche dir viel Spaß beim Stöbern!</p>
+        </div>
+
         <img
-          src="./images/car-6603726_1280.jpg"
+          src="./images/index_ubermich.jpg"
           alt="Sonnenaufgang im Grand Canyon"
         />
       </section>
+      <section class="quote">
+        <h3>
+          "Die größte Sehenswürdigkeit, die es gibt, ist die Welt. Sieh sie dir
+          an."
+        </h3>
+        <p>-Kurt Tucholsky</p>
+      </section>
       <section class="slideshow-container">
-        <div class="slideshow fade">
-          <a href="./seiten/reiseziele.html#brasilien"
-            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
-          /></a>
-          <div class="caption"><p>Amerika</p></div>
+        <h3>Reiseinspiration</h3>
+        <div class="slider">
+          <div class="slide">
+            <input type="radio" name="slide" id="img1" checked />
+            <input type="radio" name="slide" id="img2" />
+            <input type="radio" name="slide" id="img3" />
+            <input type="radio" name="slide" id="img4" />
+            <img
+              src="./images/reiseinspo_yellowstone.jpg"
+              class="slider-img slide-one"
+              alt="Morning Glory Yellowstone Nationalpark USA"
+            />
+
+            <img
+              src="./images/reiseinspo_deathvalley.jpg"
+              class="slider-img slide-two"
+              alt="Death Valley Nationalpark USA"
+            />
+
+            <img
+              src="./images/reiseinspo_operahousesidney.jpg"
+              class="slider-img slide-three"
+              alt="Opera House Sidney Australien"
+            />
+            <img
+              src="./images/reiseinspo_thailand.jpg"
+              class="slider-img slide-four"
+              alt="Koh Lipe Strand Thailand"
+            />
+            <a href="./seiten/reiseziele.html" class="caption caption1"
+              >Morning Glory im Yellowstone Nationalpark, USA</a
+            >
+            <a href="./seiten/reiseziele.html" class="caption caption2"
+              >Death Valley Nationalpark, USA</a
+            >
+            <a href="./seiten/reiseziele.html" class="caption caption3"
+              >Opera House Sidney, Australien</a
+            >
+            <a href="./seiten/reiseziele.html" class="caption caption4"
+              >Koh Lipe, Thailand</a
+            >
+          </div>
         </div>
-        <div class="slideshow fade">
-          <a href="./seiten/reiseziele.html#japan"
-            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
-          /></a>
-          <div class="caption"><p>Asien</p></div>
-        </div>
-        <div class="slideshow fade">
-          <a href="./seiten/reiseziele.html#australien"
-            ><img src="./images/lisbon-8275988_1280.jpg" alt="Reiseinspiration"
-          /></a>
-          <div class="caption"><p>Australien</p></div>
-          <a class="prev" onclick="plusSlides(-1)"
-            ><img src="./images/chevron-left-solid.svg" alt=""
-          /></a>
-          <a class="next" onclick="plusSlides(1)"
-            ><img src="./images/chevron-right-solid.svg" alt=""
-          /></a>
+        <div class="dots">
+          <label for="img1"></label><label for="img2"></label>
+          <label for="img3"></label>
+          <label for="img4"></label>
         </div>
       </section>
-      <div>
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
     </main>
+    <!-- footer -->
     <footer>
       <div>
-        <h3>Impressum</h3>
-        <h3>Datenschutz</h3>
+        <h4>Impressum</h4>
+        <h4>Datenschutz</h4>
       </div>
-      <h3>&copy 2024 Sarah Domscheit</h3>
-      <div>
-        <h3>Kontakt</h3>
+      <h4>&copy 2024 Sarah Domscheit</h4>
+      <div class="footer">
+        <div><a href="../seiten/kontakt.html">Kontakt</a></div>
         <a href="https://www.instagram.com/"
           ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
         /></a>

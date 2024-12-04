@@ -13,6 +13,8 @@
     <title>Packliste</title>
   </head>
   <body>
+   
+    <!-- header -->
     <header>
       <div>
         <a href="../index.html"
@@ -21,24 +23,34 @@
             alt="Weltkugel zurück zur Startseite"
         /></a>
       </div>
-      <div>
+
+      <!-- Navigation -->
+      <input type="checkbox" class="burger-toggle" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-icon">
         <img
           class="navmenu"
           src="../images/bars-solid.svg"
           alt="Navigationsmenu"
-        />
-      </div>
+      /></label>
 
       <nav>
         <ul class="mainnav">
-          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="../index.html" class="nav-link">Home</a></li>
           <li class="dropdown">
-            <a class="subtitle nav-link" href="../seiten/reiseziele.html">Reiseziele</a>
+            <a class="subtitle nav-link" href="../seiten/reiseziele.html"
+              >Reiseziele</a
+            >
             <ul class="dropdown-content">
               <li class="submenu">
-                <a href="../seiten/reiseziele.html#brasilien" class="submenu-subtitle">Amerika</a>
+                <a
+                  href="../seiten/reiseziele.html#brasilien"
+                  class="submenu-subtitle submenu-title"
+                  >Amerika</a
+                >
                 <ul class="submenu-content submenu-content1">
-                  <li><a href="">Brasilien</a></li>
+                  <li>
+                    <a href="../seiten/reiseziele.html#brasilien">Brasilien</a>
+                  </li>
                   <li>
                     <a href="../seiten/reiseziele.html#argentinien"
                       >Argentinien</a
@@ -54,7 +66,7 @@
                 </ul>
               </li>
               <li class="submenu">
-                <a href="../seiten/reiseziele.html#japan" class="submenu-subtitle">Asien</a>
+                <a href="../seiten/reiseziele.html#japan" class="submenu-subtitle submenu-title">Asien</a>
                 <ul class="submenu-content">
                   <li><a href="../seiten/reiseziele.html#japan">Japan</a></li>
 
@@ -76,16 +88,18 @@
                 </ul>
               </li>
               <li>
-                <a href="../seiten/reiseziele.html#australien">Australien</a>
+                <a href="../seiten/reiseziele.html#australien" class="submenu-title">Australien</a>
               </li>
-              <li><a href="../seiten/wandern.html">Europa</a></li>
+              <li><a href="../seiten/wandern.html" class="submenu-title">Europa</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a class="subtitle nav-link" href="../seiten/packliste.html">Reiseplanung</a>
+            <a class="subtitle nav-link" href="packliste.html"
+              >Reiseplanung</a
+            >
             <ul class="dropdown-content">
-              <li><a href="packliste.html">Packlisten</a></li>
+              <li><a href="packliste.html" class="submenu-title">Packlisten</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -93,24 +107,25 @@
               >Wandern</a
             >
             <ul class="dropdown-content">
-              <li><a href="../seiten/wandern.html">Jakobsweg</a></li>
+              <li><a href="../seiten/wandern.html" class="submenu-title">Jakobsweg</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="subtitle nav-link" href="../seiten/uebermich.html"
-              >Über uns</a
+              >Über mich</a
             >
             <ul class="dropdown-content">
-              <li><a href="..seiten/uebermich.html">Über uns</a></li>
+              <li><a href="../seiten/uebermich.html" class="submenu-title">Über mich</a></li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="banner"><h1>Footprints around the world</h1></section>
+      <!-- banner -->
+      <section class="banner"><h1>Footprints across the world</h1></section>
       <section class="packinglist-travel">
-        <h3>Reisen mit Handgepäck</h3>
+        <h2>Reisen mit Handgepäck</h2>
         <p>
           Für längere Reisen muss man für alle Eventualitäten gewappnet sein,
           sodass die Packliste sowohl Kleidung für wärmere Tage, sowie für
@@ -119,164 +134,176 @@
           herumträgt.
         </p>
         <ul>
-          <li>Kleidung</li>
-          <ul>
-            <li>Regenjacke und Regenhose, ggf. Poncho</li>
-            <li>kompakte, dickere Jacke</li>
-            <li>Fleecejacke</li>
-            <li>Thermounterwäsche</li>
-            <li>Unterwäsche für 7-10 Tage</li>
-            <li>3-4 paar Socken</li>
-            <li>T-Shirts und Tops</li>
-            <li>2 kurze Hosen</li>
-            <li>2 lange Hosen</li>
-            <li>Bikini/Badeanzug/Badeshorts</li>
-            <li>Sonnenbrille ggf. Brille</li>
-            <li>Flip Flops oder Birkenstocks</li>
-            <li>ggf. Wasserschuhe</li>
-            <li>Trailrunningschuhe</li>
-            <li>Buff</li>
-            <li>Hut und Mütze</li>
-            <li>Mikrofaser Handtuch</li>
-            <li>Sarong</li>
-            <li>Schlafshirt und Shorts</li>
-            <li>Leggins oder Jogginghose für lange Busfahrten</li>
-          </ul>
-          <li>Dokumente</li>
-          <ul>
-            <li>Reisepass (mind. noch 6 Monate gültig)</li>
-            <li>Führerschein und ggf. internationaler Führerschein</li>
-            <li>Flugtickets / Bahntickets</li>
-            <li>Kreditkarte (am besten von 2 verschiedenen Banken)</li>
-            <li>Bargeld (Euro)</li>
-            <li>Notfall Rufnummern</li>
-            <li>Kopien vom Reisepass usw.</li>
-            <li>ggf. Visumbestätigung</li>
-            <li>Passbilder</li>
-          </ul>
-          <li>Reiseapotheke und Hygieneartikel</li>
-          <ul>
-            <li>Schmerztabletten z.B. Ibuprofen</li>
-            <li>Tabletten gegen Durchfall</li>
-            <li>Pflaster</li>
-            <li>Sonnencreme</li>
-            <li>After-Sun</li>
-            <li>Mückenschutz</li>
-            <li>Hand-Desinfektionsgel</li>
-            <li>Duschgel, Shampoo</li>
-            <li>Zahnpasta, Zahnbürste</li>
-            <li>Deo</li>
-            <li>Haarbürste, Kamm</li>
-            <li>Gesichtscreme</li>
-          </ul>
-          <li>Gepäck</li>
-          <ul>
-            <li>Rucksack: Handgepäckrucksack von Tropicfeel</li>
-            <li>Tropicfeel Beautycase</li>
-            <li>Tagesrucksack oder Beutel</li>
-            <li>Umhängetasche</li>
-            <li>Packwürfel Kleidung</li>
-            <li>Zipper Beutel</li>
-            <li>Wäschebeutel</li>
-          </ul>
-          <li>Technisches Equipment</li>
-     <ul><li>Laptop</li>
-    <li>Kamera</li>
-    <li>Handy</li>
-    <li>Ladekabel</li>
-    <li>Powerbank</li>
-    <li>ggf. E-Book Reader</li>
-  <li>Stativ</li>
-<li>ggf.GoPro</li>
-<li>SD Karten</li>
-<li>1 TB Festplatte</li>
-</ul>
+          <h3>Kleidung</h3>
+
+          <li>Regenjacke und Regenhose, ggf. Poncho</li>
+          <li>kompakte, dickere Jacke</li>
+          <li>Fleecejacke</li>
+          <li>Thermounterwäsche</li>
+          <li>Unterwäsche für 7-10 Tage</li>
+          <li>3-4 paar Socken</li>
+          <li>T-Shirts und Tops</li>
+          <li>2 kurze Hosen</li>
+          <li>2 lange Hosen</li>
+          <li>Bikini/Badeanzug/Badeshorts</li>
+          <li>Sonnenbrille ggf. Brille</li>
+          <li>Flip Flops oder Birkenstocks</li>
+          <li>ggf. Wasserschuhe</li>
+          <li>Trailrunningschuhe</li>
+          <li>Buff</li>
+          <li>Hut und Mütze</li>
+          <li>Mikrofaser Handtuch</li>
+          <li>Sarong</li>
+          <li>Schlafshirt und Shorts</li>
+          <li>Leggins oder Jogginghose für lange Busfahrten</li>
+
+          <h3>Dokumente</h3>
+
+          <li>Reisepass (mind. noch 6 Monate gültig)</li>
+          <li>Führerschein und ggf. internationaler Führerschein</li>
+          <li>Flugtickets / Bahntickets</li>
+          <li>Kreditkarte (am besten von 2 verschiedenen Banken)</li>
+          <li>Bargeld (Euro)</li>
+          <li>Notfall Rufnummern</li>
+          <li>Kopien vom Reisepass usw.</li>
+          <li>ggf. Visumbestätigung</li>
+          <li>Passbilder</li>
+
+          <h3>Reiseapotheke und Hygieneartikel</h3>
+
+          <li>Schmerztabletten z.B. Ibuprofen</li>
+          <li>Tabletten gegen Durchfall</li>
+          <li>Pflaster</li>
+          <li>Sonnencreme</li>
+          <li>After-Sun</li>
+          <li>Mückenschutz</li>
+          <li>Hand-Desinfektionsgel</li>
+          <li>Duschgel, Shampoo</li>
+          <li>Zahnpasta, Zahnbürste</li>
+          <li>Deo</li>
+          <li>Haarbürste, Kamm</li>
+          <li>Gesichtscreme</li>
+
+          <h3>Gepäck</h3>
+
+          <li>Rucksack: Handgepäckrucksack von Tropicfeel</li>
+          <li>Tropicfeel Beautycase</li>
+          <li>Tagesrucksack oder Beutel</li>
+          <li>Umhängetasche</li>
+          <li>Packwürfel Kleidung</li>
+          <li>Zipper Beutel</li>
+          <li>Wäschebeutel</li>
+
+          <h3>Technisches Equipment</h3>
+          <li>Laptop</li>
+          <li>Kamera</li>
+          <li>Handy</li>
+          <li>Ladekabel</li>
+          <li>Powerbank</li>
+          <li>ggf. E-Book Reader</li>
+          <li>Stativ</li>
+          <li>ggf.GoPro</li>
+          <li>SD Karten</li>
+          <li>1 TB Festplatte</li>
         </ul>
       </section>
 
       <section class="packinglist-hiking">
-        <h3>Wandern</h3>
-        <p>Für die Wanderpackliste steht natürlich Wanderkleidung im Vordergrund und man muss sich bewusst sein, dass man den Rucksack tagelang auf dem Rücken trägt. Dabei sollte man beachten, dass der Rucksack gut auf dem Rücken sitzt, einen vernünftigen Hüftgurt hat und möglichst leicht ist. </p>
-        <li>Kleidung</li>
-          <ul>
-            <li>Regenjacke und Regenhose, ggf. Poncho</li>
-            <li>kompakte, dickere Jacke</li>
-            <li>Fleecejacke</li>
-            <li>Thermounterwäsche</li>
-            <li>Unterwäsche für 7-10 Tage</li>
-            <li>3-4 paar Socken</li>
-            <li>2-3 Paar Wandersocken</li>
-            <li>2-3 Merino T-Shirts</li>
-            <li>1 lange Wanderhose, 1 kurze Wanderhose, ggf.Zipperhose</li>
-            <li>Bikini/Badeanzug/Badeshorts</li>
-            <li>Sonnenbrille ggf. Brille</li>
-            <li>Flip Flops, Badelatschen oder Trekkingsandalen</li>
-            <li>Wanderschuhe</li>
-            <li>leichte Turnschuhe oder Barfussschuhe</li>
-            <li>Buff</li>
-            <li>Hut und Mütze</li>
-            <li>Mikrofaser Handtuch</li>
-            <li>Sarong</li>
-            <li>Schlafshirt und Shorts</li>
-            <li>Leggins für abends</li>
-          </ul>
-          <li>Dokumente</li>
-          <ul>
-            <li>Reisepass (mind. noch 6 Monate gültig) oder Personalausweis</li>
-            <li>Flugtickets / Bahntickets</li>
-            <li>Kreditkarte (am besten von 2 verschiedenen Banken)</li>
-            <li>Bargeld (Euro)</li>
-            <li>Notfall Rufnummern</li>
-            <li>Pilger- oder Wanderpass</li>
-            <li>ggf. Wanderführer</li>
-          </ul>
-          <li>Reiseapotheke und Hygieneartikel</li>
-          <ul>
-            <li>Schmerztabletten z.B. Ibuprofen</li>
-            <li>Tabletten gegen Durchfall</li>
-            <li>Pflaster, vor allem Blasenpflaster</li>
-            <li>Voltaren</li>
-            <li>Hirschtalgcreme</li>
-            <li>Sonnencreme</li>
-            <li>After-Sun</li>
-            <li>Mückenschutz</li>
-            <li>Hand-Desinfektionsgel</li>
-            <li>Duschgel, Shampoo</li>
-            <li>Zahnpasta, Zahnbürste</li>
-            <li>Deo</li>
-            <li>Haarbürste, Kamm</li>
-            <li>Gesichtscreme</li>
-          </ul>
-          <li>Gepäck</li>
-          <ul>
-            <li>Rucksack: Trekkingrucksack 45l, z.B.</li>
-            <li>Beautycase</li>
-            <li>Tagesrucksack oder Beutel</li>
-            <li>Umhängetasche</li>
-            <li>Packwürfel Kleidung</li>
-            <li>Zipper Beutel</li>
-            <li>Wäschebeutel</li>
-          </ul>
-          <li>Technisches Equipment</li>
-          <ul>
+        <h2>Wandern</h2>
+        <p>
+          Für die Wanderpackliste steht natürlich Wanderkleidung im Vordergrund
+          und man muss sich bewusst sein, dass man den Rucksack tagelang auf dem
+          Rücken trägt. Dabei sollte man beachten, dass der Rucksack gut auf dem
+          Rücken sitzt, einen vernünftigen Hüftgurt hat und möglichst leicht
+          ist.
+        </p>
+        <ul>
+          <h3>Kleidung</h3>
+
+          <li>Regenjacke und Regenhose, ggf. Poncho</li>
+          <li>kompakte, dickere Jacke</li>
+          <li>Fleecejacke</li>
+          <li>Thermounterwäsche</li>
+          <li>Unterwäsche für 7-10 Tage</li>
+          <li>3-4 paar Socken</li>
+          <li>2-3 Paar Wandersocken</li>
+          <li>2-3 Merino T-Shirts</li>
+          <li>1 lange Wanderhose, 1 kurze Wanderhose, ggf.Zipperhose</li>
+          <li>Bikini/Badeanzug/Badeshorts</li>
+          <li>Sonnenbrille ggf. Brille</li>
+          <li>Flip Flops, Badelatschen oder Trekkingsandalen</li>
+          <li>Wanderschuhe</li>
+          <li>leichte Turnschuhe oder Barfussschuhe</li>
+          <li>Buff</li>
+          <li>Hut und Mütze</li>
+          <li>Mikrofaser Handtuch</li>
+          <li>Sarong</li>
+          <li>Schlafshirt und Shorts</li>
+          <li>Leggins für abends</li>
+
+          <h3>Dokumente</h3>
+
+          <li>Reisepass (mind. noch 6 Monate gültig) oder Personalausweis</li>
+          <li>Flugtickets / Bahntickets</li>
+          <li>Kreditkarte (am besten von 2 verschiedenen Banken)</li>
+          <li>Bargeld (Euro)</li>
+          <li>Notfall Rufnummern</li>
+          <li>Pilger- oder Wanderpass</li>
+          <li>ggf. Wanderführer</li>
+
+          <h3>Reiseapotheke und Hygieneartikel</h3>
+
+          <li>Schmerztabletten z.B. Ibuprofen</li>
+          <li>Tabletten gegen Durchfall</li>
+          <li>Pflaster, vor allem Blasenpflaster</li>
+          <li>Voltaren</li>
+          <li>Hirschtalgcreme</li>
+          <li>Sonnencreme</li>
+          <li>After-Sun</li>
+          <li>Mückenschutz</li>
+          <li>Hand-Desinfektionsgel</li>
+          <li>Duschgel, Shampoo</li>
+          <li>Zahnpasta, Zahnbürste</li>
+          <li>Deo</li>
+          <li>Haarbürste, Kamm</li>
+          <li>Gesichtscreme</li>
+
+          <h3>Gepäck</h3>
+
+          <li>Rucksack: Trekkingrucksack 45l, z.B.</li>
+          <li>Beautycase</li>
+          <li>Tagesrucksack oder Beutel</li>
+          <li>Umhängetasche</li>
+          <li>Packwürfel Kleidung</li>
+          <li>Zipper Beutel</li>
+          <li>Wäschebeutel</li>
+
+          <h3>Technisches Equipment</h3>
+
           <li>Handy</li>
           <li>Ladekabel</li>
           <li>Powerbank</li>
           <li>Stativ</li>
-          <li>ggf.Ebook-Reader</li></ul>
+          <li>ggf.Ebook-Reader</li>
         </ul>
       </section>
     </main>
+    <!-- footer -->
     <footer>
       <div>
-        <h3>Impressum</h3>
-        <h3>Datenschutz</h3>
+        <h4>Impressum</h4>
+        <h4>Datenschutz</h4>
       </div>
-      <h3>&copy 2024 Sarah Domscheit</h3>
-      <div>
-        <a href="https://www.instagram.com/"><img src="../images/instagram-brands-solid.svg" alt="Instagram" /></a>
-        <a href="https://www.youtube.com/"> <img src="../images/youtube-brands-solid.svg" alt="Youtube"></a>
-     </div>
+      <h4>&copy 2024 Sarah Domscheit</h4>
+      <div class="footer">
+        <div><a href="../seiten/kontakt.html">Kontakt</a></div> 
+         <a href="https://www.instagram.com/"
+           ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
+         /></a>
+         <a href="https://www.youtube.com/">
+           <img src="../images/youtube-brands-solid.svg" alt="Youtube"
+         /></a>
+       </div>
     </footer>
   </body>
 </html>

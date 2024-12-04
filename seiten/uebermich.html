@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My travelblog</title>
+    <title>Über mich</title>
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,8 @@
     />
   </head>
   <body>
+   
+    <!-- header -->
     <header>
       <div>
         <a href="../index.html"
@@ -22,8 +24,9 @@
         /></a>
       </div>
 
+      <!-- Navigation -->
       <input type="checkbox" class="burger-toggle" id="burger-toggle" />
-      <label for="burger-toggle" class="burger-toggle">
+      <label for="burger-toggle" class="burger-icon">
         <img
           class="navmenu"
           src="../images/bars-solid.svg"
@@ -32,7 +35,7 @@
 
       <nav>
         <ul class="mainnav">
-          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="../index.html" class="nav-link">Home</a></li>
           <li class="dropdown">
             <a class="subtitle nav-link" href="../seiten/reiseziele.html"
               >Reiseziele</a
@@ -41,11 +44,13 @@
               <li class="submenu">
                 <a
                   href="../seiten/reiseziele.html#brasilien"
-                  class="submenu-subtitle"
+                  class="submenu-subtitle submenu-title"
                   >Amerika</a
                 >
                 <ul class="submenu-content submenu-content1">
-                  <li><a href="">Brasilien</a></li>
+                  <li>
+                    <a href="../seiten/reiseziele.html#brasilien">Brasilien</a>
+                  </li>
                   <li>
                     <a href="../seiten/reiseziele.html#argentinien"
                       >Argentinien</a
@@ -61,18 +66,12 @@
                 </ul>
               </li>
               <li class="submenu">
-                <a
-                  href="../seiten/reiseziele.html#asien"
-                  class="submenu-subtitle"
-                  >Asien</a
-                >
+                <a href="../seiten/reiseziele.html#japan" class="submenu-subtitle submenu-title">Asien</a>
                 <ul class="submenu-content">
                   <li><a href="../seiten/reiseziele.html#japan">Japan</a></li>
 
                   <li>
-                    <a href="../seiten/reiseziele.html#indonesien"
-                      >Indonesien</a
-                    >
+                    <a href="../seiten/reiseziele.html#indonesien">Indonesien</a>
                   </li>
                   <li>
                     <a href="../seiten/reiseziele.html#vietnam">Vietnam</a>
@@ -89,9 +88,9 @@
                 </ul>
               </li>
               <li>
-                <a href="../seiten/reiseziele.html#australien">Australien</a>
+                <a href="../seiten/reiseziele.html#australien" class="submenu-title">Australien</a>
               </li>
-              <li><a href="../seiten/wandern.html">Europa</a></li>
+              <li><a href="../seiten/wandern.html" class="submenu-title">Europa</a></li>
             </ul>
           </li>
 
@@ -100,7 +99,7 @@
               >Reiseplanung</a
             >
             <ul class="dropdown-content">
-              <li><a href="../seiten/packliste.html">Packlisten</a></li>
+              <li><a href="../seiten/packliste.html" class="submenu-title">Packlisten</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -108,57 +107,62 @@
               >Wandern</a
             >
             <ul class="dropdown-content">
-              <li><a href="../seiten/wandern.html">Jakobsweg</a></li>
+              <li><a href="../seiten/wandern.html" class="submenu-title">Jakobsweg</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="subtitle nav-link" href="../seiten/uebermich.html"
-              >Über uns</a
+              >Über mich</a
             >
             <ul class="dropdown-content">
-              <li><a href="..seiten/uebermich.html">Über uns</a></li>
+              <li><a href="../seiten/uebermich.html" class="submenu-title">Über mich</a></li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h2>Über mich</h2>
+      <!-- banner -->
+      <section class="banner"><h1>Footprints across the world</h1></section>
+      <section class="uebermich">
+      
         <article>
           <p>
             Hey, richtig cool, dass du hier auf meinem Blog gelandet bist. Ich
             bin Sarah und reise seit 2023 gemeinsam mit meinem Freund David
             durch die Weltgeschichte. Wir haben 1 1/2 Jahre vorher mit der
-            Planung begonnen und haben zusammen 15 in Länder in 12 Monaten
+            Planung begonnen und haben zusammen 15 Länder in 12 Monaten
             bereist. Seit April 2024 sind wir wieder in Europa. Ich war dann
             noch für 2 Monate in Portugal, Spanien und Frankreich unterwegs und
             bin davon 5 Wochen den portugiesischen Jakobsweg gewandert.
           </p>
           <p>
             Momentan mache ich eine Weiterbildung zur Webentwicklerin, damit ich
-            in Zukunft das private mit dem beruflichen verbinden kann. Komm mit
+            in Zukunft das Private mit dem Beruflichen verbinden kann. Komm mit
             auf meine Reise zurück in den Alltag in Deutschland oder lasse dich
             für deine nächste Reise inspirieren.
           </p>
         </article>
+        <img src="../images/australien.jpg" alt="Fraser Island Australien">
+        <img src="../images/vietnam_uebermich.jpg" alt="Train Street Hanoi">
       </section>
     </main>
+    <!-- footer -->
     <footer>
       <div>
-        <h3>Impressum</h3>
-        <h3>Datenschutz</h3>
+        <h4>Impressum</h4>
+        <h4>Datenschutz</h4>
       </div>
-      <h3>&copy 2024 Sarah Domscheit</h3>
-      <div>
-        <h3>Kontakt</h3>
-        <a href="https://www.instagram.com/"
-          ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
-        /></a>
-        <a href="https://www.youtube.com/">
-          <img src="../images/youtube-brands-solid.svg" alt="Youtube"
-        /></a>
-      </div>
+      <h4>&copy 2024 Sarah Domscheit</h4>
+      <div class="footer">
+        <div><a href="../seiten/kontakt.html">Kontakt</a></div> 
+         <a href="https://www.instagram.com/"
+           ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
+         /></a>
+         <a href="https://www.youtube.com/">
+           <img src="../images/youtube-brands-solid.svg" alt="Youtube"
+         /></a>
+       </div>
     </footer>
   </body>
 </html>

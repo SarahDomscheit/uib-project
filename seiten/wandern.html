@@ -13,24 +13,29 @@
     <title>Wandern</title>
   </head>
   <body>
+   
+    <!-- header -->
     <header>
       <div>
-        <a href="index.html"
+        <a href="../index.html"
           ><img
             src="../images/globe-1348777_1280.png"
             alt="Weltkugel zurück zur Startseite"
         /></a>
       </div>
-      <div>
+
+      <!-- Navigation -->
+      <input type="checkbox" class="burger-toggle" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-icon">
         <img
           class="navmenu"
           src="../images/bars-solid.svg"
           alt="Navigationsmenu"
-        />
-      </div>
+      /></label>
+
       <nav>
         <ul class="mainnav">
-          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="../index.html" class="nav-link">Home</a></li>
           <li class="dropdown">
             <a class="subtitle nav-link" href="../seiten/reiseziele.html"
               >Reiseziele</a
@@ -39,11 +44,13 @@
               <li class="submenu">
                 <a
                   href="../seiten/reiseziele.html#brasilien"
-                  class="submenu-subtitle"
+                  class="submenu-subtitle submenu-title"
                   >Amerika</a
                 >
                 <ul class="submenu-content submenu-content1">
-                  <li><a href="">Brasilien</a></li>
+                  <li>
+                    <a href="../seiten/reiseziele.html#brasilien">Brasilien</a>
+                  </li>
                   <li>
                     <a href="../seiten/reiseziele.html#argentinien"
                       >Argentinien</a
@@ -59,18 +66,12 @@
                 </ul>
               </li>
               <li class="submenu">
-                <a
-                  href="../seiten/reiseziele.html#japan"
-                  class="submenu-subtitle"
-                  >Asien</a
-                >
+                <a href="../seiten/reiseziele.html#japan" class="submenu-subtitle submenu-title">Asien</a>
                 <ul class="submenu-content">
                   <li><a href="../seiten/reiseziele.html#japan">Japan</a></li>
 
                   <li>
-                    <a href="../seiten/reiseziele.html#indonesien"
-                      >Indonesien</a
-                    >
+                    <a href="../seiten/reiseziele.html#indonesien">Indonesien</a>
                   </li>
                   <li>
                     <a href="../seiten/reiseziele.html#vietnam">Vietnam</a>
@@ -87,159 +88,131 @@
                 </ul>
               </li>
               <li>
-                <a href="../seiten/reiseziele.html#australien">Australien</a>
+                <a href="../seiten/reiseziele.html#australien" class="submenu-title">Australien</a>
               </li>
-              <li><a href="../seiten/wandern.html">Europa</a></li>
+              <li><a href="../seiten/wandern.html" class="submenu-title">Europa</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a class="subtitle nav-link" href="">Reiseplanung</a>
-            <ul class="dropdown-content">
-              <li><a href="../seiten/packliste.html">Packlisten</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="subtitle nav-link" href="wandern.html">Wandern</a>
-            <ul class="dropdown-content">
-              <li><a href="wandern.html">Jakobsweg</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="subtitle nav-link" href="./seiten/uebermich.html"
-              >Über uns</a
+            <a class="subtitle nav-link" href="../seiten/packliste.html"
+              >Reiseplanung</a
             >
             <ul class="dropdown-content">
-              <li><a href="..seiten/uebermich.html">Über uns</a></li>
+              <li><a href="../seiten/packliste.html" class="submenu-title">Packlisten</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="../seiten/wandern.html"
+              >Wandern</a
+            >
+            <ul class="dropdown-content">
+              <li><a href="../seiten/wandern.html" class="submenu-title">Jakobsweg</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="subtitle nav-link" href="../seiten/uebermich.html"
+              >Über mich</a
+            >
+            <ul class="dropdown-content">
+              <li><a href="../seiten/uebermich.html" class="submenu-title">Über mich</a></li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="banner"><h1>Footprints around the world</h1></section>
-      <section>
+      <!-- banner -->
+      <section class="banner"><h1>Footprints across the world</h1></section>
+
+      <section class="stages">  <h2> Der portugiesische Jakobsweg
+      </h2></section>
+    
+      <article class="stages-card">
         <h3>von Lissabon nach Porto</h3>
         <p>
-          Die Etappen für das erste Stück der Pilgerwanderung betragen 380 km.
+            Die Etappen für das erste Stück der Pilgerwanderung betragen 380 km.
         </p>
-        <table>
-          <thead>
-            <tr>
-              <th>Etappe</th>
-              <th>Start</th>
-              <th>Ende</th>
-              <th>Kilometer</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Lissabon</td>
-              <td>Alhandra</td>
-              <td>42 km</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section>
+       <div class="containerlisten"><ol class="listen">
+                <li>Lissabon-Alhandra</li>
+                <li>Alhandra-Vila Franca de Xira</li>
+                <li>Vila Franca de Xira-Azambuja</li>
+                <li>Azambuja-Santarem</li>
+                <li>Santarem-Golega</li>
+                <li>Golega-Tomar</li>
+                <li>Tomar-Cortica</li>
+                <li>Cortica-Ansiao</li>
+                <li>Ansiao-Rabacal</li>
+                <li>Rabacal-Coimbra</li>
+                <li>Coimbra-Albergaria-A-Nova</li>
+                <li>Albergaria-A-Nova-Sao Joao de Madeira</li>
+                <li>Sao Joao de Maderia-Porto</li>
+            </ol>
+          
+            <img src="../images/jakobsweg_etappe1-2.jpg" alt="Kathedrale von Lissabon">
+            <img src="../images/jakobsweg_etappe1.jpg" alt="Jakobsweg Lissabon nach Porto"></div>
+            
+       
+
+    </article>
+    <article class="stages-card">
         <h3>von Porto nach Santiago de Compostela</h3>
-        <ol>
-          <li>Porto-Vila do Conde</li>
-          <li>Vila do Conde-Esposende</li>
-          <li>Esposende-Viana do Castelo</li>
-          <li>Viana do Castelo-A Guarda</li>
-          <li>A Guarda-Baiona</li>
-          <li>Baiona-Vigo</li>
-          <li>Vigo-Redondela</li>
-          <li>Redondela-Pontevedra</li>
-          <li>Pontevedra-Caldas de Reis</li>
-          <li>Caldas de Reis-Padron</li>
-          <li>Padron-Santiago de Compostela</li>
-        </ol>
-      </section>
+        <p>Die Etappen für das zweite Stück der Pilgerwanderung betragen 280 km.</p>
+        
+            <div class="containerlisten"> <ol class="listen">
+                <li>Porto-Vila do Conde</li>
+                <li>Vila do Conde-Esposende</li>
+                <li>Esposende-Viana do Castelo</li>
+                <li>Viana do Castelo-A Guarda</li>
+                <li>A Guarda-Baiona</li>
+                <li>Baiona-Vigo</li>
+                <li>Vigo-Redondela</li>
+                <li>Redondela-Pontevedra</li>
+                <li>Pontevedra-Caldas de Reis</li>
+                <li>Caldas de Reis-Padron</li>
+                <li>Padron-Santiago de Compostela</li>
+            </ol>
+           
+            <img src="../images/jakobsweg_etappe2.jpg" alt="Jakobsweg Porto nach Santiago">
+            <img src="../images/jakobsweg_etappe2-2.jpg" alt="Portugiesischer Jakobsweg Küste">
+      </div>
+           
+
+    </article>
+    <article class="stages-card">
+        <h3>von Santiago de Compostela nach Muxia</h3>
+        <p>Die Etappen für das dritte Stück der Pilgerwanderung betragen 120 km.</p>
+       
+           <div class="containerlisten">     <ol class="listen">
+                <li>Santiago de Compostela-Vilaserio</li>
+                <li>Vilaserio-Hospital</li>
+                <li>Hospital-Finisterre</li>
+                <li>Finisterre-Muxia</li>
+            </ol>
+           
+            <img src="../images/jakobsweg_etappe3.jpg" alt="Jakobsweg Santiago nach Muxia">
+            <img src="../images/jakobsweg_etappe3-2.jpg" alt="KM0-Stein Muxia"></div>
+       
+      
+    </article>
+
     </main>
+    <!-- footer -->
     <footer>
       <div>
-        <h3>Impressum</h3>
-        <h3>Datenschutz</h3>
+        <h4>Impressum</h4>
+        <h4>Datenschutz</h4>
       </div>
-      <h3>&copy 2024 Sarah Domscheit</h3>
-      <div>
-        <h3>Kontakt</h3>
-        <a href="https://www.instagram.com/"
-          ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
-        /></a>
-        <a href="https://www.youtube.com/">
-          <img src="../images/youtube-brands-solid.svg" alt="Youtube"
-        /></a>
-      </div>
+      <h4>&copy 2024 Sarah Domscheit</h4>
+      <div class="footer">
+        <div><a href="../seiten/kontakt.html">Kontakt</a></div> 
+         <a href="https://www.instagram.com/"
+           ><img src="../images/instagram-brands-solid.svg" alt="Instagram"
+         /></a>
+         <a href="https://www.youtube.com/">
+           <img src="../images/youtube-brands-solid.svg" alt="Youtube"
+         /></a>
+       </div>
     </footer>
   </body>
 </html>

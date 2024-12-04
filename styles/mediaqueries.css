@@ -1,0 +1,178 @@
+/* Mediaqueries */
+
+@media (max-width:767px) {
+    /* Navigation */
+    nav {
+      display: none;
+      position:fixed;
+      top: 5rem;
+      bottom: 0;
+      right: 0rem;
+      background-color: var(--third-bg);
+      min-width:15rem;
+      max-width: 80%;
+      padding: 1rem;
+    
+    }
+    .nav-link {
+      font-size: 1.5rem;
+    }
+  
+    .submenu-title {
+        font-size: 1.2rem;
+        
+    }
+  
+  .submenu-content {
+    padding-left: 1rem;
+  }
+    
+     .burger-toggle:checked + .burger-icon + nav {
+      display: flex;
+    }
+  
+  
+  
+      
+    }
+  
+  @media (min-width: 768px) {
+  
+    /* Navigation */
+    header {
+      justify-content: center;
+    }
+  
+    nav {
+      display: block;
+    }
+    .navmenu {
+      display: none;
+    }
+    nav {
+      margin-right: 2rem;
+    }
+  
+    .mainnav {
+      display: flex;
+      gap: 2rem;
+      position: relative;
+    }
+  
+    .mainnav li:hover {
+        background-color: #28415d;
+        color: var(--primary-bg);
+      }
+  
+    .nav-link {
+      color: white;
+      font-weight: 500;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+  
+    .nav-link:hover {
+      color: white;
+    }
+  
+    .subtitle::after {
+      content: url(../images/caret-right-solid.svg);
+      width: 1rem;
+      height: 1rem;
+      display: inline-block;
+      position: absolute;
+      top: -0.3rem;
+    }
+  
+    .subtitle:hover::after {
+      transform: rotate(90deg);
+      transition: 0.3s;
+      top: 0rem;
+      margin-left: 0.5rem;
+    }
+  
+    .dropdown {
+      position: relative;
+    }
+  
+    .mainnav .dropdown-content {
+      position: absolute;
+      top: 1.5rem;
+      left: 0;
+      background: var(--third-bg);
+      width: 100%;
+      display: none;
+    }
+  
+    .dropdown-content li {
+      padding: 1rem 0;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+      border: solid white;
+    }
+  
+    .mainnav .submenu-content {
+      position: absolute;
+      top: 25%;
+      left: 100%;
+      background-color: var(--third-bg);
+      display: none;
+      border: solid white 1px;
+    }
+  
+    .mainnav .submenu-content1 {
+      top: 0;
+      left: 100%;
+    }
+  
+    .submenu:hover .submenu-content {
+      display: block;
+    }
+  
+    
+  
+    /* Intro Index */
+  
+  .intro {flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem auto;
+  
+    
+    }
+  
+    .intro-content {
+  width: 40%;
+  margin: 0 auto;
+    }
+  
+    /* Kommentar */
+  
+  .comment {
+    width: 60% ;
+  }
+  
+    /* Jakobsweg */
+    .containerlisten {
+  flex-direction: row;
+  justify-content: center;
+    }
+  .containerlisten img {
+  width: 20%;
+  }
+  
+  /* ueber mich */
+  
+  .uebermich {
+    flex-direction: row;
+  }
+  
+  .uebermich img {
+   width: 30%;
+  }
+  
+  
+    
+  }

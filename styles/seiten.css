@@ -1,0 +1,143 @@
+
+/* packliste */
+
+.packinglist-travel,
+.packinglist-hiking {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--four-bg);
+}
+
+.packinglist-travel h2,
+.packinglist-hiking h2 {
+  font-size: 1.8rem;
+}
+
+
+.packinglist-travel h3,
+.packinglist-hiking h3 {
+  font-size: 1.4rem;
+  margin:1rem 0 1rem 0;
+}
+
+
+.packinglist-travel ul li, .packinglist-hiking ul li {
+  margin:0.4rem 2rem;
+}
+
+/* Kommentar */
+
+.comment {
+  width: 90%;
+  height: 29rem;
+  background-color: var(--four-bg);
+  margin: 2rem auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.comment form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0.5rem;
+}
+
+textarea {
+  height: 7rem;
+  resize: none;
+  overflow: auto;
+}
+
+textarea, input, button {
+  padding: 0.5rem;
+  border: var(--primary-bg-bg) solid 2px;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button {
+  background-color: var(--third-bg);
+  width: 30%;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: var(--secondary-bg)
+  ;
+  color: var(--primary-bg);
+  
+}
+
+input:focus, textarea:focus {
+  border: none;
+  outline: var(--primary-bg);
+box-shadow: var(--box-shadow);
+border-radius: 0.5rem;
+}
+
+/* etappen */
+
+.stages {
+  width: 80%;
+}
+
+.stages-card, .stages {
+  width: 80%;
+  background-color: var(--four-bg);
+  border-radius: 1rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.containerlisten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.containerlisten img {
+  width: 60%;
+  border-radius: 1rem;
+}
+
+/* uebermich */
+.uebermich {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: var(--four-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.uebermich  img {
+  width: 60%;
+  border-radius: 1rem;
+}
+
+.uebermich p {
+  padding: 0.5rem;
+}
