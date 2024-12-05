@@ -1,7 +1,7 @@
-@import url(reiseziele.css);
-@import url(seiten.css);
-@import url(mediaqueries.css);
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poiret+One&display=swap');
+@import url(./reiseziele.css);
+@import url(./seiten.css);
+@import url(./mediaqueries.css);
+
 
 /* Grundlegende Stylings */
 * {
