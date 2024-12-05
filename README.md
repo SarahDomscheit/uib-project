@@ -2,19 +2,18 @@
 
 Dies ist ein Website-Projekt für das UIUX-Design, das mit HTML und CSS erstellt wurde. Die Website ist ein Reiseblog mit verschiedenen Seiten, wie Packlisten, Reiseziele, Über mich und Wandern. Es gibt ein Formularfeld mit Kommentarfunktion und ein Carousel für Reiseinspirationen.
 
-## Vorbereitung
+## :writing_hand: Vorbereitung
 
 #### Wireframe mit Figma
 
-[Link zu Figma](https://www.figma.com/design/udKWYCWk3IYKHRB2xv5CvB/Travelblog?node-id=0-1&m=dev&t=adSGtTxnGJ3iQfUS-1)
-
+![Figma](./images/figma.png)
 
 
 #### Mindmap mit Canva
 
-![Canva](./images/Reiseblog.png)
+![Canva](./images/canva.png)
 
-## :film_strip: Wie baue ich ein Carousel?
+## :film_strip: Slideshow mit HTML und CSS erstellen
 
 ### HTML
 ```
@@ -185,4 +184,4 @@ z-index: 2;
 
 ##### :soon: Erster Blogbeitrag
 
-Der erste Blogbeitrag über Rio de Janeiro folgt in Kürze und wird mit Grid gestylt.
+Der erste Blogbeitrag folgt in Kürze.
